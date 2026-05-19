@@ -42,5 +42,5 @@ This project validates the condensation algorithm on two distinct UCI benchmark 
 ├── generating_plots.py     # Standalone script to generate figures
 ├── data_loader.py          # Loading dataset
 ├── README.md               # Project documentation
-
+```
 An implementation by Medha Bhavani Girish, EE23B112, as an assignment for Foundations of Machine Learning (DA5400)
