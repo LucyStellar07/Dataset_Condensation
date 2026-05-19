@@ -2,7 +2,7 @@
 
 **A PyTorch reproduction of "Dataset Condensation for Time Series Classification via Dual Domain Matching" (Liu & Hao, 2026).**
 
-This repository contains the code, data loaders, and visualization scripts to reproduce a Dual-Domain Dataset Condensation framework. It synthesizes a miniature, highly informative dataset ($<4\%$ of the original size) that can train deep learning models to nearly the same accuracy as the massive original dataset.
+This repository contains the code, data loaders, and visualization scripts to reproduce a Dual-Domain Dataset Condensation framework. It synthesizes a miniature, highly informative dataset (less than 4 percent of the original size) that can train deep learning models to nearly the same accuracy as the massive original dataset.
 
 ## Overview
 
