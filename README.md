@@ -14,6 +14,7 @@ By matching network gradients in both the **Time Domain** and the **Frequency Do
 ```text
 ├── main.py                 # The core bi-level condensation loop and model evaluations
 ├── condtsc_modules.py      # Contains Dualmodel, KCenter Init, and Augmentations
-├── generate_plots.py       # Standalone script to generate LaTeX-ready figures
+├── generating_plots.py     # Standalone script to generate figures
+├── data_loader.py          # Loading dataset
 ├── README.md               # Project documentation
 └── data/                   # (Directory for downloaded datasets)
