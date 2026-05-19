@@ -9,6 +9,31 @@ This repository contains the code, data loaders, and visualization scripts to re
 Standard dataset condensation techniques were designed for spatial images and perform poorly on temporal sensor data because they ignore the spectrum information. This project implements **CondTSC**, which solves this by utilizing **Dual Domain Gradient Matching**.
 By matching network gradients in both the **Time Domain** and the **Frequency Domain**, the synthetic data retains relevant features of the original dataset.
 
+This project validates the condensation algorithm on two distinct UCI benchmark datasets to evaluate performance across different temporal topologies:
+
+### Human Activity Recognition (HAR)
+
+- **Type:** Dense, multi-channel physical telemetry  
+  $(9 \text{ channels}, \text{ length } 128)$
+
+- **Classes:** 6  
+  *(Walking, Sitting, Standing, Laying, Walking Upstairs, Walking Downstairs)*
+
+- **Purpose:**  
+  Evaluates the algorithm's ability to preserve periodic and high-frequency human motion dynamics in condensed synthetic samples.
+
+---
+
+### Synthetic Control Chart Time Series
+
+- **Type:** Univariate time-series with global geometric patterns  
+  $(1 \text{ channel}, \text{ length } 60)$
+
+- **Classes:** 6  
+  *(Normal, Cyclic, Increasing Trend, Decreasing Trend, Upward Shift, Downward Shift)*
+
+- **Purpose:**  
+  Evaluates the algorithm's capability to preserve smooth, coordinate-dependent temporal morphology and long-range structural patterns.
 ## Repository Structure
 
 ```text
@@ -17,4 +42,3 @@ By matching network gradients in both the **Time Domain** and the **Frequency Do
 ├── generating_plots.py     # Standalone script to generate figures
 ├── data_loader.py          # Loading dataset
 ├── README.md               # Project documentation
-└── data/                   # (Directory for downloaded datasets)
