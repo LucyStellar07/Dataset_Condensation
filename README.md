@@ -14,7 +14,7 @@ This project validates the condensation algorithm on two distinct UCI benchmark 
 ### Human Activity Recognition (HAR)
 
 - **Type:** Dense, multi-channel physical telemetry  
-  *(9 \text{ channels}, \text{ length } 128)*
+  *(9 channels, length 128)*
 
 - **Classes:** 6  
   *(Walking, Sitting, Standing, Laying, Walking Upstairs, Walking Downstairs)*
@@ -27,7 +27,7 @@ This project validates the condensation algorithm on two distinct UCI benchmark 
 ### Synthetic Control Chart Time Series
 
 - **Type:** Univariate time-series with global geometric patterns  
-  *(1 \text{ channel}, \text{ length } 60)*
+  *(1 channel, length 60)*
 
 - **Classes:** 6  
   *(Normal, Cyclic, Increasing Trend, Decreasing Trend, Upward Shift, Downward Shift)*
