@@ -14,7 +14,7 @@ This project validates the condensation algorithm on two distinct UCI benchmark 
 ### Human Activity Recognition (HAR)
 
 - **Type:** Dense, multi-channel physical telemetry  
-  $(9 \text{ channels}, \text{ length } 128)$
+  *(9 \text{ channels}, \text{ length } 128)*
 
 - **Classes:** 6  
   *(Walking, Sitting, Standing, Laying, Walking Upstairs, Walking Downstairs)*
@@ -27,7 +27,7 @@ This project validates the condensation algorithm on two distinct UCI benchmark 
 ### Synthetic Control Chart Time Series
 
 - **Type:** Univariate time-series with global geometric patterns  
-  $(1 \text{ channel}, \text{ length } 60)$
+  *(1 \text{ channel}, \text{ length } 60)*
 
 - **Classes:** 6  
   *(Normal, Cyclic, Increasing Trend, Decreasing Trend, Upward Shift, Downward Shift)*
@@ -42,5 +42,6 @@ This project validates the condensation algorithm on two distinct UCI benchmark 
 ├── generating_plots.py     # Standalone script to generate figures
 ├── data_loader.py          # Loading dataset
 ├── README.md               # Project documentation
+├── Report.pdf               # Project report
 ```
 An implementation by Medha Bhavani Girish, EE23B112, as an assignment for Foundations of Machine Learning (DA5400)
